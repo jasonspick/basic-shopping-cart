@@ -1,0 +1,55 @@
+[
+    {
+        "description": "16lb bag of Skittles",
+        "cost": 16.00,
+        "exempt": true,
+        "imported": false
+    },
+    {
+        "description": "Walkman",
+        "cost": 99.00,
+        "exempt": false,
+        "imported": false
+    },
+    {
+        "description": "bag of microwave Popcorn",
+        "cost": 0.99,
+        "exempt": true,
+        "imported": false
+    },
+    {
+        "description": "bag of Vanilla-Hazelnut Coffee",
+        "cost": 11.00,
+        "exempt": true,
+        "imported": true
+    },
+    {
+        "description": "Vespa",
+        "cost": 15001.00,
+        "exempt": false,
+        "imported": true
+    },
+    {
+        "description": "crate of Almond Snickers",
+        "cost": 75.99,
+        "exempt": true,
+        "imported": true
+    },{
+        "description": "Discman",
+        "cost": 55.00,
+        "exempt": false,
+        "imported": false
+    },
+    {
+        "description": "Bottle of Wine",
+        "cost": 0.00,
+        "exempt": false,
+        "imported": true
+    },
+    {
+        "description": "300# bag of Fair-Trade Coffee",
+        "cost": 997.99,
+        "exempt": true,
+        "imported": false
+    }
+]
