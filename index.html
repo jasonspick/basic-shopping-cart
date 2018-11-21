@@ -5,8 +5,26 @@
     </head>
 
     <body>
-        View Console.
-        <script type="text/javascript" src="public/main.js"></script>
+        <ol>
+            <li>Run <code>npm install</code></li>
+            <li>Run <code>npm start</code></li>
+            <li>Go to: <a href="http://127.0.0.1:8080">http://127.0.0.1:8080</a> If available. Otherwise follow instructions in console.</li>
+            <li>Watch console for results.</li>
+        </ol>
+        <script type="text/javascript" src="node_modules/systemjs/dist/system.js"></script>
+        <script>
+            System.config({
+                meta: {
+                    format: 'cjs',
+                },
+                packages: {
+                    '.': {
+                        defaultExtension: 'js'
+                    }
+                }
+            });
+            System.import('./public/main.js');
+        </script>    
     </body>
 
 </html>

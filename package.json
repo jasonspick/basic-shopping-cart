@@ -1,0 +1,16 @@
+{
+  "name": "shoppingcart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "author": "Jason Spick",
+  "scripts": {
+    "start": "http-server ./"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "dependencies": {
+    "systemjs": "^0.20.19"
+  }
+}
